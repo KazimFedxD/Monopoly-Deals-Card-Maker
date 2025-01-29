@@ -2,6 +2,8 @@ from turtle import position
 from PIL import Image, ImageDraw, ImageFont
 from tqdm import tqdm
 
+
+# CORDS= (min_x, max_x), (min_y, max_y)
 ACTION_CARD_TITLE_CORDS = (500, 1300), (500, 800)
 CARD_NAME_CORDS = (500, 1300), (1100, 2000)
 CARD_DESCRIPTION_CORDS = (300, 1450), (2200, 2500)
