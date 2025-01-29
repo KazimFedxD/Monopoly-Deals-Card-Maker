@@ -1,4 +1,3 @@
-from turtle import position
 from PIL import Image, ImageDraw, ImageFont
 from tqdm import tqdm
 
@@ -83,6 +82,6 @@ def create_custom_card(value:str, title:str, description:str):
     card_name(draw, font, title)
     card_description(draw, font, description)
     play_in_center(draw, font)
-
     
+
     card.save(f"cards/{title}.png")
